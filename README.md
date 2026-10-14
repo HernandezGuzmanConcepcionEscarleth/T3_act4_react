@@ -1,4 +1,4 @@
-# Actividad 4 
+# Actividad 4 Introducción a React - Fundamentos y Primer Componente.
 ---
 ## Hernández Guzmán Concepción Escarleth
 ## Programación Web
@@ -44,7 +44,41 @@ https://github.com/HernandezGuzmanConcepcionEscarleth/T3_act4_react
 https://hernandezguzmanconcepcionescarleth.github.io/T3_act4_react/
 
 ---
+## Funcionalidades de mi aplicación
 
+Mi aplicación cuenta con las siguientes funciones:
+
+**Agregar tareas: permite escribir una actividad escolar y agregarla a la lista.**
+
+**Marcar tareas como completadas: puedo seleccionar las actividades que ya terminé.**
+
+**Eliminar tareas: permite quitar las tareas que ya no necesito.**
+
+**Contador de tareas: muestra la cantidad de actividades que he completado y se hace manual.**
+
+**Actualización de la lista: cuando agrego, elimino o completo una tarea, los cambios se muestran en la pantalla.**
+
+---
+
+## Componentes utilizados
+
+Para realizar mi aplicación utilicé componentes de React, los cuales me ayudaron a organizar mejor el código.
+
+App.jsx: es el componente principal de mi aplicación. Aquí se encuentra la estructura general y se controla la información de las tareas.
+
+Tarea.jsx: es el componente que utilizo para mostrar cada tarea de la lista. Recibe información mediante props.
+
+También utilicé useState para guardar las tareas y actualizar la información cuando realizo alguna acción.
+
+## Proceso de elaboración
+
+Primero creé mi proyecto utilizando React y Vite desde Visual Studio Code. Después organicé los archivos y comencé a modificar el componente principal.
+
+Posteriormente agregué un campo de texto y un botón para registrar las tareas escolares. Después implementé las funciones para marcar las actividades como completadas y eliminarlas.
+
+También utilicé useState para que los cambios se actualizaran en la pantalla y props para compartir información entre componentes.
+
+---
 ## Captura 
 <img width="2544" height="1342" alt="Captura de pantalla 2026-10-13 193757" src="https://github.com/user-attachments/assets/0ad0d6e7-a039-407e-9404-ebd94a8d03c7" />
 

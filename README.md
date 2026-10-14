@@ -37,7 +37,7 @@ useState es una función de React que permite guardar y actualizar información 
 
 **d) Enlace de mi repositorio de GitHub**
 
-Pendiente de agregar cuando publique mi proyecto.
+https://github.com/HernandezGuzmanConcepcionEscarleth/T3_act4_react
 
 **e) Enlace de mi proyecto en GitHub Pages**
 

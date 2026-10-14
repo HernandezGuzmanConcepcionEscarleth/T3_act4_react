@@ -1,0 +1,225 @@
+
+/* fondo de mi pagina */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eaf4fc;
+  color: #243b53;
+}
+
+/* cuadro principal de mi aplicacion */
+main {
+  background-color: white;
+  width: 85%;
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #cbddea;
+}
+
+/* encabezado de mi pagina */
+header {
+  background-color: #103752;
+  text-align: center;
+  padding: 25px;
+  border-radius: 9px;
+  margin-bottom: 30px;
+}
+
+/* titulo principal */
+header h1 {
+  color: white;
+  font-size: 30px;
+  margin: 0 0 10px;
+}
+
+/* descripcion del encabezado */
+header p {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* espacio para agregar tareas */
+section {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+/* campo donde escribo la tarea */
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #b6d3e8;
+  border-radius: 7px;
+  font-size: 15px;
+  background-color: white;
+  color: #243b53;
+}
+
+/* cuando selecciono el campo */
+input:focus {
+  outline: 2px solid #184565;
+}
+
+/* estilo de todos mis botones */
+button {
+  background-color: #213646;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 11px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* cuando paso el mouse por los botones */
+button:hover {
+  background-color: #17222a;
+}
+
+/* titulo de la lista */
+main h2 {
+  color: #2f6f9d;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+/* lista de mis tareas */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* cuadro de cada tarea */
+li {
+  background-color: #64859c;
+  border: 1px solid #6e99b7;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+/* nombre de mis tareas */
+li span {
+  font-size: 16px;
+  color: #243b53;
+  overflow-wrap: anywhere;
+}
+
+/* espacio entre los botones */
+li div {
+  display: flex;
+  gap: 8px;
+}
+
+/* cuadro pequeño de mi contador */
+.contador {
+  background-color: #518ab3;
+  border: 1px solid #c5dcec;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 30px auto 0;
+  text-align: center;
+  width: 220px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* titulo de mi contador */
+.contador h2 {
+  color: #f4f9fc;
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+/* numero del contador */
+.contador p {
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* botones del contador */
+.contador button {
+  background-color: #0f3f61;
+  padding: 8px 18px;
+  font-size: 18px;
+  margin: 4px;
+}
+
+/* cuando paso el mouse por el contador */
+.contador button:hover {
+  background-color: #2f6f9d;
+}
+
+/* acomodo la pagina en pantallas pequeñas */
+@media (max-width: 500px) {
+  main {
+    width: 90%;
+    padding: 15px;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* cambio el color del boton agregar */
+section button {
+  background-color: #4a90c2 !important;
+  color: white;
+}
+
+/* cambio los botones completar y eliminar */
+li button {
+  background-color: #4a90c2 !important;
+  color: white;
+}
+
+/* cambio el color al pasar el mouse */
+section button:hover,
+li button:hover {
+  background-color: #2f6f9d !important;
+}
+
+
+/* cambio el fondo de mis tareas */
+main ul li {
+  background-color: #eaf4fc !important;
+  border: 1px solid #b6d3e8;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 12px;
+}
+
+/* cambio el color del nombre de mis tareas */
+main ul li span {
+  color: #243b53 !important;
+  font-size: 16px;
+}
+
+/* botones de mis tareas */
+main ul li button {
+  background-color: #4a90c2 !important;
+  color: white;
+}
+
+/* cuando paso el mouse por los botones */
+main ul li button:hover {
+  background-color: #2f6f9d !important;
+}

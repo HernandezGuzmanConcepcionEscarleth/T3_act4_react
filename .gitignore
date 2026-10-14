@@ -1,0 +1,59 @@
+# registros de errores
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# dependencias instaladas
+node_modules/
+
+# archivos generados al compilar
+dist/
+dist-ssr/
+
+# archivos de configuracion local
+*.local
+.env
+.env.local
+.env.*.local
+
+# archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# configuraciones de editores
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# archivos del sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# archivos de Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# archivos de pruebas y cobertura
+coverage/
+.nyc_output/
+
+# archivos de cache
+.cache/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+
+# archivos de respaldo
+*~
+*.backup

@@ -44,4 +44,9 @@ https://github.com/HernandezGuzmanConcepcionEscarleth/T3_act4_react
 https://hernandezguzmanconcepcionescarleth.github.io/T3_act4_react/
 
 ---
+
+## Captura 
+<img width="2544" height="1342" alt="Captura de pantalla 2026-10-13 193757" src="https://github.com/user-attachments/assets/0ad0d6e7-a039-407e-9404-ebd94a8d03c7" />
+
+
 Con esta actividad aprendí a crear un proyecto de React desde cero y a utilizar componentes para organizar mejor el código. También practiqué las props, los estados, los eventos y la creación de listas dinámicas. Al principio algunas cosas fueron nuevas para mí, pero al ir realizando cada parte pude comprender mejor cómo funciona React.

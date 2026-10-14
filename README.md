@@ -1,11 +1,17 @@
-# React + Vite
+# Actividad 4 
+---
+## Hernández Guzmán Concepción Escarleth
+## Programación Web
+---
+## Mini aplicación React + Vite
 ## Mi organizador de tareas escolares
-
+---
 ## Descripción del proyecto
 
 En esta actividad realicé mi primera aplicación utilizando React y Vite. Decidí crear una lista de tareas escolares porque es una herramienta sencilla que puedo utilizar para organizar mis actividades de la escuela.
 Mi aplicación permite agregar tareas, marcarlas como completadas y eliminarlas. También muestra cuántas actividades he terminadoy las marcamos con un contador manualmente.
 
+---
 ## Herramientas utilizadas
 
 - React
@@ -14,7 +20,7 @@ Mi aplicación permite agregar tareas, marcarlas como completadas y eliminarlas.
 - HTML y CSS
 - Visual Studio Code
 - GitHub
-
+---
 ## Preguntas
 
 **a) ¿Qué diferencia hay entre props y state en React?**

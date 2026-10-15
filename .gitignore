@@ -57,3 +57,16 @@ coverage/
 # archivos de respaldo
 *~
 *.backup
+# archivos de configuracion de npm
+.npmrc.local
+
+# archivos temporales de Vite
+node_modules/.vite/
+node_modules/.cache/
+
+# archivos de respaldo del proyecto
+*.old
+*.orig
+
+# archivos temporales de Windows
+*.lnk
